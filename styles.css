@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto';
+}
+
 .hero,
 .footer
 {
@@ -6,7 +10,6 @@
 }
 
 .header{
-    font-family: 'Roboto';
     color:#E5E7EB;
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +36,6 @@ a{
 
 .main{
     display: flex;
-    font-family: 'Roboto';
     color: #F9FAF8;
     flex-wrap: wrap;
     gap: 60px;
@@ -63,13 +65,53 @@ button{
     background-color: #3882F6;
     color: #E5E7EB;
     padding: 7px;
-    width: 100px;
+    width: 170px;
     box-sizing: border-box;
+    font-size: 25px;
+    font-weight: 600;
 }
 img{
     border: none;
     border-radius: 20px;
     height: 350px;
-    width: 570px;
-    flex: 1;
+    width: auto;
+    flex-shrink: 1;
+}
+
+#information-section{
+    margin: 75px;
+}
+
+#box-title{
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    font-size: 24px;
+}
+
+#box-items,
+#infoBoxes
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#box-items{
+    gap: 10px;
+
+}
+#infoBoxes{
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: solid 5px;
+    border-radius: 20px;
+    border-color: #3882F6;
 }
