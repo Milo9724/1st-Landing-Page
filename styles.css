@@ -2,8 +2,7 @@
     font-family: 'Roboto';
 }
 
-.hero,
-.footer
+#hero
 {
     background-color:#1F2937;
     box-sizing: content-box;
@@ -61,7 +60,7 @@ a{
 
 button{
     border: none;
-    border-radius: 8px;
+    border-radius: 16px;
     background-color: #3882F6;
     color: #E5E7EB;
     padding: 7px;
@@ -80,6 +79,7 @@ img{
 
 #information-section{
     margin: 75px;
+    padding-bottom: 20px;
 }
 
 #box-title{
@@ -114,4 +114,72 @@ img{
     border: solid 5px;
     border-radius: 20px;
     border-color: #3882F6;
+}
+
+#quote-section{
+    display: flex;
+    background-color: #E5E7EB ;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+#quote{
+    font-size: 36px;
+    font-weight: 300;
+    flex: 1;
+    align-self: center;
+    font-style: italic;
+    padding: 40px
+}
+
+#author-section{
+    display: block;
+    margin-left: auto;
+}
+
+#author{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#call-section{
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cta-box{
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cta-slogan{
+    font-size: 30px;
+    color:#E5E7EB;
+    font-weight: 600;
+    text-align: start;
+    margin: auto;
+}
+
+#cta-text{
+    color:#E5E7EB;
+}
+
+#t1{
+    box-sizing: border-box;
+    padding: 35px;
+    text-align: center;    
+}
+
+#t2{
+    margin: 18px;
+}
+
+#cta-button{
+    border-style: solid;
+    padding: 5px;
+    border-radius: 16px;
 }
